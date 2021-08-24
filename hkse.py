@@ -43,6 +43,7 @@ try:
     outFile = open(outFileName, "wb");
 except:
     print("Failed to open or create file '" + outFileName + "'")
+    exit()
 
 seed = input("Password: ")
 
